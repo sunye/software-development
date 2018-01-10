@@ -19,6 +19,8 @@
 
 ## Plan
 - Les acteurs du développement logiciel
+- Environnement de travail du développeur
+- Conclusion
 
 
 ----
@@ -44,11 +46,14 @@
 - Langages: Fortran, LISP, ALGOL, etc.
 
 note:
-    Thèse: développer des logiciels c'est comme développer le matériel.
     Back in the late '50's and early '60's, programmers didn't even interact directly with computing devices. They delivered their programs by hand to technicians and then picked up the results hours later after the programs were batch processed with many others. Thus early tasks were typically geared towards mathematical computation, which required a very limited feedback loop.
 
 ----
 
+- Thèse: développer des logiciels c'est comme développer le matériel.
+- Il n'y avait pratiquement aucune interaction entre le programmeur et l'ordinateur.
+
+----
 ## Années 60
 
 ![](resources/png/1960.png)
@@ -56,10 +61,13 @@ note:
 - Langages: COBOL, Simula, PL/I
 
 note:
-    Antithèse: élaboration des logiciels.
-    On parle désormais de "Utilisateur" et de "Développeur". Les ordinateurs ne sont plus réservés aux calculs scientifiques!
-    Début de la programmation structurée. 
-    1968 - l'OTAN créé une nouvelle discipline, le «Génie Logiciel»
+On parle désormais de "Utilisateur" et de "Développeur". Les ordinateurs ne sont plus réservés aux calculs scientifiques!
+
+----
+
+- Antithèse: élaboration des logiciels.
+- Début de la programmation structurée.
+- Les utilisateurs ne sont plus seulement les scientifiques.
 
 ----
 
@@ -74,13 +82,21 @@ note:
 
 ----
 
+- C'est la «crise du logiciel»!
+- Naissance du «Génie Logiciel», créé en 1968 à l'OTAN.
+
+
+----
+
 ## Années 80
 
 ![](resources/png/1980.png)
 
 - Langages: ADA, Objective C, Eiffel, Perl, etc.
 
-note:
+----
+
+- Création du premier Macintosh en 1984: début des ordinateurs personnels.
 - Création de la «Free Software Fondation» en 1985.
 - Nouveaux acteurs: Fournisseur d'outils (création des AGL), développeur IHM
 
@@ -91,11 +107,22 @@ note:
 - Langages: Python, Haskell, OCaml, Lua, Java, PHP, Ruby, JavaScript, etc.
 
 ----
+
+- Début du «World Wide Web».
+- La maintenance commence à devenir plus importante que le développement.
+
+----
 ## Années 2000
 
 ![](resources/png/2000.png)
 
 - Langages: C#, Scala, Groovy, Go, etc.
+
+----
+
+- Création de Facebook et des réseaux sociaux.
+- Le logiciel libre devient indispensable. Plusieurs entreprises ouvrent leur code: Apple, Google, Microsoft, Facebook, etc.
+- Début des «méthodes agiles». 
 
 ----
 ## Années 10
@@ -105,7 +132,19 @@ note:
 - Langages: Rust, Dart, Kotlin, Swift, TypeScript, etc.
 
 ----
+
+- Démocratisation des _smartphones_ et des tablettes.
+- Nouvelles architectures: _cloud_, _fog_, _edge_, etc.
+- Démocratisation des objets connectés: le logiciel est partout.
+- Vers une «crise du logiciel» 2.0 ? 
+
+----
+
 ## Plan
+
+- Les acteurs du développement logiciel
+- Environnement de travail du développeur
+- Conclusion
 
 ----
 ## Environnement de travail du développeur
@@ -148,7 +187,7 @@ note:
 
 ----
 
-- L'évaluateur de qualité qui pourra, en continu:
+- L'évaluateur de qualité peut, en continu:
   - identifier le code dupliqué;
   - mesurer le niveau de documentation;
   - vérifier le respect des règles de programmation;
@@ -172,7 +211,7 @@ note:
 - Exemples: [StackOverflow](https://stackoverflow.com), [Code Project](https://www.codeproject.com/), [Développez.com](https://www.developpez.com).
 
 note:
--Stack overflow
+-Stack overflow: https://stackoverflow.com
 
 ----
 ## Exemple: Developpez.com
@@ -183,6 +222,15 @@ note:
 
 ## Plan
 
+- Les acteurs du développement logiciel
+- Environnement de travail du développeur
+- Conclusion
+
+
 ----
 
 ## Conclusion
+
+- Le développement logiciel comprend plusieurs activités au-delà du simple codage: maintenance, prototypage, maintenance, test, etc.
+- C'est une activité très outillée et automatisée.
+- Beaucoup d'acteurs différents (et tout autant de métiers). 
