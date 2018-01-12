@@ -13,7 +13,7 @@
 
 ----
 
-> Le besoin d'un meilleur contrôle de qualité du processus de développement a engendré, dans les années 70, la discipline appelé «Génie Logiciel».
+> Le besoin d'un meilleur contrôle de qualité du processus de développement a engendré, dans les années 70, la discipline appelée «Génie Logiciel».
 
 ----
 
