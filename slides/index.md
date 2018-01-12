@@ -3,14 +3,7 @@
 
 
 ----
-## Notes de cours
 
-Je vous conseille vivement à prendre des notes à l'aide d'un stylo, cela aidera votre apprentissage. 
-
-Si malgré mon conseil, vous souhaitez prendre des notes de cours sur votre ordinateur, utilisez le [Pad](http://pad.univ-nantes.fr/editor/p/g.Y0QnNEObVE25ifcg$X12I040-DL) collaboratif disponible à cette fin. 
-
-
-----
 ## Licence
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
