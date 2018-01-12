@@ -2,12 +2,22 @@
 
 ----
 
-## What is TypeScript?
+## Introduction
 
-- Free and open source, strongly supported by Microsoft
-- Based on ecmascript 4 + ecmascript 6
-- Created by the father of C# Anders Hejlsberg
-- A superset of JavaScript
+- TypeScript est un langage de programmation ouvert et gratuit.
+- C'est un logiciel libre,  fortement soutenu par Microsoft.
+- Créé par Anders Hejlsberg, qui a aussi créé C#.
+- Basé sur les normes ECMAScript 4 et 6.
+
+----
+
+## JavaScript++
+
+- TypeScript est un surensemble de JavaScript
+
+What is TypeScript?
+
+
 - To answer why we need JavaScript+, we need to understand what's wrong with vanilla JavaScript
 
 ----
