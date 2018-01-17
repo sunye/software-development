@@ -81,6 +81,6 @@ note:
 	<p class="fragment highlight-blue">highlight-blue</p>
 </section>
 
--  highlight-red <!-- .element: class="fragmenthighlight-red" -->
+-  highlight-red <!-- .element: class="fragment highlight-red" -->
 
 
