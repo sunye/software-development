@@ -12,6 +12,11 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 In
 
 Icons made by  [Freepik](http://www.freepik.com) from [Flaticon](www.flaticon.com)  are  licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/).
 
+----
+## Liens utiles
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Visual Studio Code](http://code.visualstudio.com)
 
 ----
 
