@@ -166,7 +166,7 @@ function mul(x, y) {
     return x * y;
 }
 
-add("toto", 31) // evaluates to NaN (Not a Number)
+mul("toto", 31) // evaluates to NaN (Not a Number)
 ```
 
 ----
@@ -188,7 +188,7 @@ function mul(x : number, y : number) {
     return x * y;
 }
 
-add("toto", 31) // ERROR
+mul("toto", 31) // ERROR
 ```
 
 ----
