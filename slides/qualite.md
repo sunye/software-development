@@ -247,7 +247,7 @@ function wait(delay: number){}
 ```
 
 - De quelle unité de temps s'agit-il? Secondes? Millisecondes?
-- ALternative:
+- Alternative:
 
 ```ts
 function wait(delayMilliseconds: number){}
@@ -549,6 +549,14 @@ const numberOfActiveThreads = 5;
 function display(){}
 ```
 
+```js
+/*
+after hours of consulting the tome of google
+i have discovered that by the will of unknown forces
+without the below line, IE7 believes that 6px = 12px
+*/
+font-size: 0px;
+```
 
 
 ----
@@ -767,7 +775,6 @@ return (a > b);
 > «Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.» Douglas Knuth, [Essay on Literate Programming](http://www.literateprogramming.com/knuthweb.pdf).
 
 
-----
 
     
     
