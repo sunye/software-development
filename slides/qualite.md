@@ -86,7 +86,7 @@ function WriteLine(line : string) {...}
 
 ----
 
-- Classes en interfaces utilisent le "PascalCase": la première lettre de chaque mot est en majuscule:
+- Classes et interfaces utilisent le "PascalCase": la première lettre de chaque mot est en majuscule:
 
 Nom | PascalCase
 --|--
@@ -127,7 +127,7 @@ interface graduatestudent {...}
 ## Une question de taille
 
 - Évitez les identifiants d'un seul caractère:
-  - p.ex. `a`, `b`, `f`.
+  - p. ex. `a`, `b`, `f`.
 
 - La taille doit être proportionnelle à la portée:
   - Petite portée, noms courts.
@@ -155,7 +155,7 @@ function sumArray(values : number[]): number {
 ## Une question de précision
 
 - Les noms des identifiants doivent être précis.
-- p.ex. une fonction qui calcule la taille d'un arbre:
+- p. ex. une fonction qui calcule la taille d'un arbre:
 
 ```ts
 function size(tree: Tree): number {
@@ -182,7 +182,7 @@ function footprint(tree: Tree): number {}
 ----
 ## Évitez les noms génériques
 
-- p.ex. `tmp`, `aux` ou `retval` veulent souvent dire: «- Je ne sais pas comment appeler ma variable»:
+- p. ex. `tmp`, `aux` ou `retval` veulent souvent dire: «- Je ne sais pas comment appeler ma variable»:
 
 ```ts
 function euclideanNorm(values: number[]): number {
@@ -211,7 +211,9 @@ sumOfSquares += values[i] + values[i]
 
 ----
 
-- Exception: parfois `tmp` désigne vraiment une valeur temporaire:
+### Exception 
+
+- Parfois `tmp` désigne vraiment une valeur temporaire:
 
 ```ts
     if(begin > end) {
@@ -527,7 +529,8 @@ const numberOfActiveThreads = 5
 ```
 
 ----
-## Inclure les «commentaires du réalisateur»
+## Inclure les 
+### «commentaires du réalisateur»
 
 - Les «commentaires du réalisateur» sont des informations additionnelles dont seul le développeur dispose:
 
@@ -538,17 +541,6 @@ const numberOfActiveThreads = 5
 const numberOfActiveThreads = 5;
 ```
 
-----
-
-- Ce genre de commentaire peut aussi expliquer l'état du code:
-
-```
-// After adding new features for version 3.0 (November 2017), the
-// code became fragile. Maybe we should split this function into
-// two others, displayRaw() and displayHTML().
-function display(){}
-```
-
 ```js
 /*
 after hours of consulting the tome of google
@@ -556,6 +548,30 @@ i have discovered that by the will of unknown forces
 without the below line, IE7 believes that 6px = 12px
 */
 font-size: 0px;
+```
+
+----
+
+- Ce genre de commentaire peut aussi expliquer l'état du code:
+
+```ts
+// After adding new features for version 3.0 (November 2017), the
+// code became fragile. Maybe we should split this function into
+// two others, displayRaw() and displayHTML().
+function display(){}
+```
+
+```ts
+// 
+// Dear maintainer:
+// 
+// Once you are done trying to 'optimize' this routine,
+// and have realized what a terrible mistake that was,
+// please increment the following counter as a warning
+// to the next guy:
+// 
+// total_hours_wasted_here = 42
+// 
 ```
 
 
