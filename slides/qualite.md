@@ -11,7 +11,7 @@
 
 - Introduction<!-- .element: class="fragment highlight-blue" -->
 - Conventions de codage
-- Dénomination de variables et de fonctions
+- Nommage de variables et de fonctions
 - Éviter des mauvaises interprétations
 - Esthétique
 - Commentaires
@@ -44,7 +44,7 @@
 
 - Introduction
 - Conventions de codage<!-- .element: class="fragment highlight-blue" -->
-- Dénomination de variables et de fonctions
+- Nommage de variables et de fonctions
 - Éviter des mauvaises interprétations
 - Esthétique
 - Commentaires
@@ -113,7 +113,7 @@ interface graduatestudent {...}
 
 - Introduction
 - Conventions de codage
-- Variables et de fonctions<!-- .element: class="fragment highlight-blue" -->
+- Nommage de variables et de fonctions<!-- .element: class="fragment highlight-blue" -->
 - Éviter des mauvaises interprétations
 - Esthétique
 - Commentaires
@@ -293,7 +293,7 @@ password | encodedPassword
 
 - Introduction
 - Conventions de codage
-- Dénomination de variables et de fonctions
+- Nommage de variables et de fonctions
 - Mauvaises interprétations<!-- .element: class="fragment highlight-blue" -->
 - Esthétique
 - Commentaires
@@ -311,7 +311,7 @@ results = filter(clients, "birthyear  > 2000")
 ```
 
 - Qu'est-ce qu'on filtre exactement?
-   - Les client nées après l'année 2000?
+   - Les client nés après l'année 2000?
    - Ou le contraire? 
 - Si le premier cas: `select()` est un meilleur nom.
 - Si le deuxième, `reject()` ou `exclude()`?
@@ -394,7 +394,7 @@ let needPassword : boolean = true;
 ## Plan
 - Introduction
 - Conventions de codage
-- Dénomination de variables et de fonctions
+- Nommage de variables et de fonctions
 - Éviter des mauvaises interprétations
 - Esthétique<!-- .element: class="fragment highlight-blue" -->
 - Commentaires
@@ -463,7 +463,7 @@ details  = request.POST.get('details')
 ## Plan
 - Introduction
 - Conventions de codage
-- Dénomination de variables et de fonctions
+- Nommage de variables et de fonctions
 - Éviter des mauvaises interprétations
 - Esthétique
 - Commentaires<!-- .element: class="fragment highlight-blue" -->
@@ -612,7 +612,7 @@ function factorial(num: number): number {
 ## Plan
 - Introduction
 - Conventions de codage
-- Dénomination de variables et de fonctions
+- Nommage de variables et de fonctions
 - Éviter des mauvaises interprétations
 - Esthétique
 - Commentaires
@@ -764,7 +764,7 @@ return (a > b);
 ## Plan
 - Introduction
 - Conventions de codage
-- Dénomination de variables et de fonctions
+- Nommage de variables et de fonctions
 - Éviter des mauvaises interprétations
 - Esthétique
 - Commentaires
@@ -774,7 +774,7 @@ return (a > b);
 ----
 ## L'intention, la raison et la manière
 
-- Les commentaires externes doivent expliquer ce que fait un fonction (l'intention).
+- Les commentaires externes doivent expliquer ce que fait une fonction (l'intention).
 - Les commentaires internes doivent expliquer pourquoi le code a été écrit comme ça (la raison).
 - Le code source doit être assez clair pour expliquer comment il s'exécute (la manière).
 
