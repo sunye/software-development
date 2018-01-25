@@ -50,7 +50,14 @@ const tooManyArticles: number = 24;
 let todayEvents:Event[] = eventsInRange("22/1/2018 00:00", "22/1/2018") 
 
 
+
+
+
+
+
+
 // Calcul du plus grand commun diviseur de deux entiers
+// FIXME 
 function pgcd(a: number, b: number) {
     while (a != b) {
         if (a > b) { 
@@ -87,12 +94,11 @@ function contains(elm : number, elements: number[]): boolean {
     return found;
 }
 
-function containsBis(elm : number, elements: number[]): boolean {
+function containsBis(elm: number, elements: number[]): boolean {
     let found: boolean = false;
     for (const each of elements) {
         if (each == elm) {
-            found = true;
-            break;
+            found = true; break;
         }
     }
     return found;
