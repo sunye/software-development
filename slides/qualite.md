@@ -58,7 +58,13 @@
   - N'importe quelle chaine de caractères alphanumériques est un identifiant valide. 
   
 - Cependant, tous les langages ont des règles d'écriture appelées «conventions de codage».
-  - Proposées par les créateurs du langage ou par la communauté de développeurs. 
+  - Proposées par les créateurs du langage ou par la communauté de développeurs.
+
+----
+
+- Parfois, plusieurs conventions sont disponibles pour un même langage:
+  - Pour assurer la cohérence, chaque projet ne doit adopter qu'une seule convention. 
+  - Utiliser la même convention à l'intérieur d'un projet est plus important qu'adopter la "meilleure" convention.
 
 ----
 ## En TypeScript
@@ -457,6 +463,62 @@ location = request.POST.get('location')
 email    = request.POST.get('email')
 url      = request.POST.get('url')
 details  = request.POST.get('details')
+```
+
+----
+## Laissez respirer le code
+
+- Utilisez les lignes vides pour créer des paragraphes de code.
+
+```ts
+function validateEmail(email: Email): string {
+ let error:string="";
+ let tfl:string = email.value.trim();                
+ let emailFilter:RegExp = /^[^@]+@[^@.]+\.[^@]*\w\w$/ ;
+ let illegalChars:RegExp = /[\(\)\<\>\,\;\:\\\"\[\]]/ ;
+ if (email.value == "") {
+     email.style.background = 'Yellow';
+     error = "You didn't enter an email address.\n";
+ } else if (!emailFilter.test(tfld)) {         
+     email.style.background = 'Yellow';
+     error = "Please enter a valid email address.\n";
+ } else if (email.value.match(illegalChars)) {
+     email.style.background = 'Yellow';
+     error = "The email address contains illegal characters.\n";
+ } else {
+     email.style.background = 'White';
+ }
+ return error;
+}
+```
+
+----
+```ts
+function validateEmail(email: Email): string {
+    const emailFilter : RegExp = /^[^@]+@[^@.]+\.[^@]*\w\w$/;
+    const illegalChars: RegExp = /[\(\)\<\>\,\;\:\\\"\[\]]/;
+
+    let error   : string = "";
+    let tfl     : string = email.value.trim();
+
+    if (email.value == "") {
+        email.style.background = 'Yellow';
+        error = "You didn't enter an email address.\n";
+
+    } else if (!emailFilter.test(tfld)) {
+        email.style.background = 'Yellow';
+        error = "Please enter a valid email address.\n";
+
+    } else if (email.value.match(illegalChars)) {
+        email.style.background = 'Yellow';
+        error = "The email address contains illegal characters.\n";
+
+    } else {
+        email.style.background = 'White';
+    }
+    
+    return error;
+}
 ```
 
 ----

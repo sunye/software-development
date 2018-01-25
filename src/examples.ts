@@ -111,3 +111,77 @@ function isLeapYear(year: number): boolean {
                 false));
 }
 
+
+
+function indexOf(str, query) {
+    for(var i = 0; i < str.length; i++) {
+      for(var q = 0; q < query.length; q++) {
+        if (str[i+q] !== query[q]) {
+          break;
+        }
+        if (q === query.length - 1) {
+          return i;
+        } 
+      }
+    }
+     return -1;
+  }
+
+interface User {
+    email: string
+
+}
+
+function isPalindrome(str: string): boolean {
+    var cstr = str.toLowerCase().replace(/[^a-zA-Z0-9]+/g, '');
+    var ccount = 0;
+    if (cstr === "") {
+        return false;
+    }
+    if ((cstr.length) % 2 === 0) {
+        ccount = (cstr.length) / 2;
+    } else {
+        if (cstr.length === 1) {
+            return true;
+        } else {
+            ccount = (cstr.length - 1) / 2;
+        }
+    }
+    for (var x = 0; x < ccount; x++) {
+        if (cstr[x] != cstr.slice(-1 - x)[0]) {
+            return false;
+        }
+    }
+    return true;
+}
+    isPalindrome('madam');
+    isPalindrome('nurses run');
+    isPalindrome('fox');
+
+    interface Style {
+        background : string
+    }
+    interface Email {
+        value: string
+        style: Style;
+    }
+
+    function validateEmail(email: Email): string {
+        let error:string="";
+        let tfl:string = email.value.trim();                
+        let emailFilter:RegExp = /^[^@]+@[^@.]+\.[^@]*\w\w$/ ;
+        let illegalChars:RegExp = /[\(\)\<\>\,\;\:\\\"\[\]]/ ;
+        if (email.value == "") {
+            email.style.background = 'Yellow';
+            error = "You didn't enter an email address.\n";
+        } else if (!emailFilter.test(tfld)) {         
+            email.style.background = 'Yellow';
+            error = "Please enter a valid email address.\n";
+        } else if (email.value.match(illegalChars)) {
+            email.style.background = 'Yellow';
+            error = "The email address contains illegal characters.\n";
+        } else {
+            email.style.background = 'White';
+        }
+        return error;
+    }
