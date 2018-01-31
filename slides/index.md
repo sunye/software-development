@@ -10,7 +10,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 In
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
 
-Icons made by  [Freepik](http://www.freepik.com) from [Flaticon](www.flaticon.com)  are  licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/).
+Icons made by  [Freepik](http://www.freepik.com) from [Flaticon](http://www.flaticon.com)  are  licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/).
 
 ----
 ## Liens utiles
