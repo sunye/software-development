@@ -185,3 +185,28 @@ function isPalindrome(str: string): boolean {
         }
         return error;
     }
+
+function validateEmail(email: Email): string {
+    const emailFilter : RegExp = /^[^@]+@[^@.]+\.[^@]*\w\w$/;
+    const illegalChars: RegExp = /[\(\)\<\>\,\;\:\\\"\[\]]/;
+
+    let error   : string = "";
+    let tfl     : string = email.value.trim();
+
+    if (email.value == "") {
+        email.style.background = 'Yellow';
+        error = "You didn't enter an email address.\n";
+
+    } else if (!emailFilter.test(tfld)) {
+        email.style.background = 'Yellow';
+        error = "Please enter a valid email address.\n";
+
+    } else if (email.value.match(illegalChars)) {
+        email.style.background = 'Yellow';
+        error = "The email address contains illegal characters.\n";
+
+    } else {
+        email.style.background = 'White';
+    }
+    return error;
+}
