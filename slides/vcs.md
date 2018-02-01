@@ -38,7 +38,7 @@
 - Il permet de connaître toute l'historique des modifications. 
 - Il est généralement constitué:
   - d'un référentiel (local ou distant) : contenant toutes les versions;
-  - de copies de travail : contenant les modifications d'un utilisateur qui seront ensuite incluses dans le dépôt.
+  - de copies de travail : contenant les modifications d'un utilisateur qui seront ensuite incluses dans le référentiel.
 
 ----
 ### Quelques exemples
@@ -641,12 +641,23 @@ git merge | fusionne les changements rapportés
 git push | publie les nouveautés du référentiel local
 
 ----
+## Conclusion
 
 - Les premiers gestionnaires de version ont été créés dans les années 80 (GNU RCS)
 - Ils ont beaucoup évolué depuis, surtout après la montée en popularité des logiciels libres. 
 - Grâce à l'historique des modifications, ils fournissent un vrai "filet de sécurité" aux développeurs
 - Actuellement, il est impensable de réaliser un projet informatique sans un gestionnaire de versions.
 
+----
+## Derniers conseils
+
+1. Utilisez toujours un gestionnaire de versions, même pour les petits projets.
+1. Validez souvent
+1. Validez **très** souvent
+1. Récupérez souvent les changements publiques
+1. Utilisez des outils dédiés
+  - [GitKraken](https://www.gitkraken.com/)
+  - [SmartGit](http://www.syntevo.com/smartgit/)
 
 ----
 
