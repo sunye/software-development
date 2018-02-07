@@ -87,7 +87,7 @@
 - Mauvaise spécification des exigences logicielles: erronées, incomplètes, inconsistantes.
 - Erreurs de conception: mauvais choix de conception
 - Erreurs de mise en œuvre: erreurs d'opérateurs, oublis, expressions incorrectes.
-- Erreurs de système: mauvais langages de programmation, mauvais compilateurs, mauvais outils de développement.
+- Outils inadaptés ou fragiles: langages de programmation, compilateurs, bibliothèques, outils de développement.
 
 ----
 
