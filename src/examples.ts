@@ -104,7 +104,7 @@ function containsBis(elm: number, elements: number[]): boolean {
     return found;
 }
 
-function isLeapYear(year: number): boolean {
+function isLeapYearComplicate(year: number): boolean {
     return ((year % 400) == 0) ? true :
         (((year % 100) == 0) ? false :
             (((year % 4) == 0) ? true :
@@ -209,4 +209,16 @@ function validateEmail(email: Email): string {
         email.style.background = 'White';
     }
     return error;
+}
+
+function isLeapYear(year: number): boolean {
+    if (year % 400 == 0 && year % 100 == 0) {
+        return true;
+    }
+
+    if (year % 100 == 0) {
+        return false;
+    }
+
+    return (year % 4 == 0);
 }
