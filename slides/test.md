@@ -57,6 +57,44 @@
 
 ----
 
+## Vérification par le test
+
+- Vérification
+  - Contrôler que le programme sous test respecte la spécification
+- Test
+  - Principe générale : faire des essais
+- Combien ? De quel type ? A quel point ?
+  - En opposition avec la preuve qui consiste à formaliser le système pour appliquer des vérifications de niveau mathématique
+    - Difficulté de la formalisation
+
+
+note:
+    Sans formalisation complète on ne vérifie pas grand chose, alors que le test même incomplet vérifie beaucoup
+
+
+----
+
+## Test et preuve
+
+![](resources/png/preuve-test.png)
+
+----
+
+
+## Motivation
+
+![](resources/png/problematique-test.png)
+
+note:
+- Diminuer le coût d’un logiciel
+- Augmenter la qualité
+- Augmenter la confiance
+- Qualité/confiance -> on n’améliore la qualité sans référentiel/objectif final car on ne sait pas qu’elle est la qualité idéale/parfaite
+- Mais le client/utilisateur a besoin de confiance, qu’on peut augmenter
+- Manque une chose dans ce schéma : le passage vers la droite : augmentation de l’utilisation de test, basé sur la technique
+
+----
+
 ## Vérifier pour prévenir des erreurs
 
 - Une *erreur* est une décision inappropriée ou erronée, faite par un développeur, qui conduit à l'introduction d'un défaut.
@@ -446,7 +484,7 @@ les tests sont la documentation vivante du logiciel
 
 ## Propriétés testées
 
-- Comportement fonctionnel
+- Comportement nominal
 - Gestion d'erreurs
 - Vérification des valeurs d'entrée (paramètres)
 - Correction des valeurs de sortie (valeur de retour)
