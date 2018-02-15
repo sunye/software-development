@@ -1,0 +1,27 @@
+L'objectif des tests est de supprimer toutes les erreurs d'un logiciel
+
+La validation et la vérification sont deux techniques différentes de test
+
+Une erreur provoque toujours une défaillance
+
+Pendant le test unitaire, on voit le logiciel sous test comme une seule unité
+
+Le test d'intégration mesure la performance du logiciel sous test
+
+Le "smoke test" consiste à tester exhaustivement le logiciel sous test, jusqu'à le faire fumer littéralement. 
+
+L'inspection de code est une technique de test statique.
+
+Le test statique n'utilise jamais un ordinateur
+
+Le test statique n'exécute jamais le logiciel sous test
+
+L'Oracle est un personnage du film Matrix.
+
+Pendant le test logiciel dynamique, l'oracle est toujours automatique.
+
+Le test structurel utilise la structure interne d'un programme pour générer des données de test.
+
+Un bon test unitaire est indépendant des autres tests unitaires.
+
+Jasmine est un outil qui simplifie l'écriture de tests système, d'intégration et unitaires.
