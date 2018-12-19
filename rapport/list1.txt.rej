@@ -1,0 +1,59 @@
+***************
+*** 4,9 ****
+  Amande
+  Amélanche
+  Ananas
+  Asimine
+  Avocat
+  Banane
+--- 4,10 ----
+  Amande
+  Amélanche
+  Ananas
++ Arbouse
+  Asimine
+  Avocat
+  Banane
+***************
+*** 25,36 ****
+  Figue
+  Figue de barbarie
+  Fraise
+  Grenade
+  Griotte
+  Groseille
+  Jujube
+  Kaki
+- Kiwaï
+  Kiwi
+  Lime
+  Mandarine
+--- 26,37 ----
+  Figue
+  Figue de barbarie
+  Fraise
++ Framboise
+  Grenade
+  Griotte
+  Groseille
+  Jujube
+  Kaki
+  Kiwi
+  Lime
+  Mandarine
+***************
+*** 47,53 ****
+  Olive
+  Orange
+  Pamplemousse
+- Pastèque
+  Pêche
+  Physalis ou Coqueret du Pérou
+  Pistache
+--- 48,53 ----
+  Olive
+  Orange
+  Pamplemousse
+  Pêche
+  Physalis ou Coqueret du Pérou
+  Pistache

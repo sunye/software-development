@@ -255,7 +255,7 @@ interface Point {
 ```ts
 let a : Address = { street: "50 Otages", number: 1, city: "Nantes" }
 
-function formatAddress(anAddress : Address) {
+function formatAddress(anAddress : Address) : String {
     return anAddress.street + ", nb:" + anAddress.number + 
         ". " + anAddress.city
 }
@@ -273,7 +273,7 @@ interface Address {
 
 let a : Address = { street: "50 Otages", number: 1, city: "Nantes" }
 
-function formatAddress(anAddress : Address) {
+function formatAddress(anAddress : Address) : String {
     return anAddress.street + ", nb:" + anAddress.number + 
     ". " + anAddress.city
 }

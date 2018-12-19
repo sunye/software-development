@@ -1,0 +1,32 @@
+--- list1.txt	2018-01-30 15:08:44.000000000 +0100
++++ list2.txt	2018-01-30 15:08:37.000000000 +0100
+@@ -4,6 +4,7 @@
+ Amande
+ Amélanche
+ Ananas
++Arbouse
+ Asimine
+ Avocat
+ Banane
+@@ -25,12 +26,12 @@
+ Figue
+ Figue de barbarie
+ Fraise
++Framboise
+ Grenade
+ Griotte
+ Groseille
+ Jujube
+ Kaki
+-Kiwaï
+ Kiwi
+ Lime
+ Mandarine
+@@ -47,7 +48,6 @@
+ Olive
+ Orange
+ Pamplemousse
+-Pastèque
+ Pêche
+ Physalis ou Coqueret du Pérou
+ Pistache

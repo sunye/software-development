@@ -1,0 +1,32 @@
+{
+  "name": "introduction-au-developpement-logiciel",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "coffeelint": "^1.16.0",
+    "grunt": "^1.0.0",
+    "grunt-build-control": "^0.7.1",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jasmine": "^3.0.0",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sunye/software-development.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "marked": "^0.3.9"
+  }
+}
