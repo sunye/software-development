@@ -50,10 +50,14 @@ note:
 
 ----
 
-- Thèse: développer des logiciels c'est comme développer le matériel.
+![](resources/puchcard.jpg)
+<!-- .element style="width:400px;" -->
+
+- Thèse: développer des logiciels c'est comme développer le matériel électornique.
 - Il n'y avait pratiquement aucune interaction entre le programmeur et l'ordinateur.
 
 ----
+
 ## Années 60
 
 ![](resources/png/1960.png)
@@ -65,9 +69,15 @@ On parle désormais de "Utilisateur" et de "Développeur". Les ordinateurs ne so
 
 ----
 
+<div>
 - Antithèse: élaboration des logiciels.
 - Début de la programmation structurée.
 - Les utilisateurs ne sont plus seulement les scientifiques.
+</div>
+<!-- .element style="position:absolute; left:00px;  width:400px; top:200px;" -->
+
+<figure style="position:absolute; right:00px;  width:400px; top:200px;"><img src='resources/png/structured-programming.png'>
+	<figcaption></figcaption></figure>
 
 ----
 
@@ -78,13 +88,19 @@ On parle désormais de "Utilisateur" et de "Développeur". Les ordinateurs ne so
 - Langages: Pascal, C, Prolog, Smalltalk, Modula, BASIC, etc.
 
 note:
-    Crise du logiciel, naissance du "Génie Logiciel"
+
+Nouveaux rôles:
+
+- Analyste et Concepteur
+- Testeur
 
 ----
 
+![](resources/png/anniversary.png)
+<!-- .element style="width:400px;" -->
+
 - C'est la «crise du logiciel»!
 - Naissance du «Génie Logiciel», créé en 1968 à l'OTAN.
-
 
 ----
 
@@ -94,34 +110,72 @@ note:
 
 - Langages: ADA, Objective C, Eiffel, Perl, etc.
 
+note:
+
+Nouveaux rôles:
+
+- ingénieur des exigences
+- fournisseur d'outils
+- IHM
+
 ----
+
+![Lisa GUI](resources/png/lisa-gui.png)
 
 - Création du premier Macintosh en 1984: début des ordinateurs personnels.
 - Création de la «Free Software Fondation» en 1985.
 - Nouveaux acteurs: Fournisseur d'outils (création des AGL), développeur IHM
 
+![FSF](resources/png/fsf.png)
+<!-- .element style="width:100px; position:fixed; right:00px; top:10px" -->
+
 ----
+
 ## Années 90 
 
-![](resources/png/1990.png)
+![1990](resources/png/1990.png)
+<!-- .element style="width:700px;" -->
+
 - Langages: Python, Haskell, OCaml, Lua, Java, PHP, Ruby, JavaScript, etc.
+
+note:
+
+Nouveaux rôles:
+
+- Intergiciels
+- Composants
+- Architect
 
 ----
 
+![WWW](resources/png/www.png)
+<!-- .element style="width:100px;" -->
+
 - Début du «World Wide Web».
+
+![Maintenance](resources/png/software-maintenance.png)
+<!-- .element style="width:100px;" -->
+
 - La maintenance commence à devenir plus importante que le développement.
 
 ----
 ## Années 2000
 
 ![](resources/png/2000.png)
+<!-- .element style="width:700px;" -->
 
 - Langages: C#, Scala, Groovy, Go, etc.
+
+note:
+
+- Développeur web
+- Développeur logiciels libre
 
 ----
 
 - Création de Facebook et des réseaux sociaux.
-- Le logiciel libre devient indispensable. Plusieurs entreprises ouvrent leur code: Apple, Google, Microsoft, Facebook, etc.
+- Le logiciel libre devient indispensable. 
+  - Plusieurs entreprises ouvrent leur code: Apple, Google, Microsoft, Facebook, etc.
 - Début des «méthodes agiles». 
 
 ----
@@ -130,6 +184,12 @@ note:
 ![](resources/png/2010.png)<!-- .element: style="width:800px;"-->
 
 - Langages: Rust, Dart, Kotlin, Swift, TypeScript, etc.
+
+note:
+
+- DevOps
+- Applications mobiles
+- Cloud
 
 ----
 
@@ -143,7 +203,7 @@ note:
 ## Plan
 
 - Les acteurs du développement logiciel
-- Environnement de travail du développeur
+- **Environnement de travail du développeur**
 - Conclusion
 
 ----
@@ -181,7 +241,7 @@ note:
 ----
 ## Évaluation continue de la qualité 
 
-![](resources/png/evaluateur-qualite.png)<!-- .element: style="width:600px;"-->
+![](resources/png/evaluateur-qualite.png)<!-- .element: style="width:500px;"-->
 
 - One peut coupler le gestionnaire de versions avec un évaluateur de qualité du code source.
 
@@ -205,7 +265,8 @@ note:
 ----
 ## Web
 
-![](resources/png/developpeur-web.png)<!-- .element: style="width:400px;"-->
+![](resources/png/developpeur-web.png)
+<!-- .element: style="width:300px;"-->
 
 - Enfin, les développeurs utilisent souvent des sites web spécialisés pour poser des questions, obtenir des exemples de code, apprendre de nouvelles techniques, etc.
 - Exemples: [StackOverflow](https://stackoverflow.com), [Code Project](https://www.codeproject.com/), [Développez.com](https://www.developpez.com).
